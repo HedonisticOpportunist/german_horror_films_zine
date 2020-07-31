@@ -1,0 +1,119 @@
+
+/*
+   body and header stylings
+*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  width: 90%;
+  background-color: #86c4ba;
+}
+
+h1, h2, p {
+  color: #596e79;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-weight: : 800;
+}
+
+h2 {
+  font-family: 'Alegreya', serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/*
+  image logo styling
+*/
+#nosferatu {
+  width: 20%;
+  height: auto;
+  border-radius: 35%;
+  float: left;
+}
+
+#logo {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 150px;
+}
+
+#footer-logo {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/*
+  navigation
+*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:45px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+}
+
+/*
+  index section sylings
+*/
+.col-7 {
+  margin: 5px;
+  background-color: #ebecf1;
+  padding:20px;
+}
+
+.col-8 {
+  margin: 5px;
+  background-color: #eeecda;
+  padding:10px;
+}
+
+/*
+  grid view (W3 schools)
+*/
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
