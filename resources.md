@@ -20,5 +20,7 @@ https://studio.tailorbrands.com/
 ## German Expressionism
 
 https://alphahistory.com/weimarrepublic/weimar-cinema/#Post-war_German_film
+
 https://news.artnet.com/market/art-house-an-introduction-to-german-expressionist-films-32845
+
 https://www.movementsinfilm.com/german-expressionism
