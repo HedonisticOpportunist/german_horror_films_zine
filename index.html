@@ -5,7 +5,8 @@
 
 <head>
   <title>Das Schreckgespenst - Main</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Crimson+Text&family=Montserrat&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="description" content="Newsletter for fans of German horror.">
@@ -16,15 +17,21 @@
 </head>
 
 <body>
-  <img id="logo" src="images/logo_1.PNG" alt="Das Schreckgespenst Logo">
-  <ul class="col-2">
-    <li>
-      <a href="history.html">A History of German Horror Cinema</a>
-    </li>
-    <li>
-      <a href="films.html">Famous German Horror Films</a>
-    </li>
-  </ul>
+  <!-- Links -->
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img id="logo" src="images/logo_1.PNG" alt="Das Schreckgespenst Logo">
+    </a>
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="history.html">History</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="films.html">German Films</a>
+      </li>
+    </ul>
+  </nav>
   <div class="col-7">
     <img id="nosferatu" src="images/logo_nosferatu.jpg" alt="Nosferatu Logo">
     <h2>Welcome!</h2>

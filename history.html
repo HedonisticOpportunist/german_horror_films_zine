@@ -3,6 +3,7 @@
 
 <head>
   <title>Das Schreckgespenst - An Overview of German Cinema</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="description" content="Newsletter for fans of German horror.">
@@ -13,17 +14,23 @@
 </head>
 
 <body>
-  <img id="logo" src="images/logo_1.PNG" alt="Das Schreckgespenst Logo">
-  <ul class="col-3">
-    <li>
-      <a href="index.html">Home</a>
-    </li>
-    <li>
-      <a href="films.html">Famous German Horror Films</a>
-    </li>
-  </ul>
+  <!-- Links -->
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img id="logo" src="images/logo_1.PNG" alt="Das Schreckgespenst Logo">
+    </a>
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="films.html">German Films</a>
+      </li>
+    </ul>
+  </nav>
   <h1>A History of German Horror</h1>
-  <div class="row">
+  <div class="container-fluid">
     <h2>German Expressionism</h2>
     <p>
       German horror can be traced back to a genre called Expressionism — which is also known as Weimar Cinema. The Weimar Republic (1919 - 1933) was marked by political tumult. This, in turn, inspired a genre in cinema that led filmmakers like Fritz
